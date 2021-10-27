@@ -31,3 +31,6 @@ $ edit user
 #
 $ delete user
 ![alt text](https://www.img.in.th/images/2559981cf5c44e923a604296d5246993.jpg)
+# 
+$regis
+![alt text](https://www.img.in.th/images/ed2af8b48c3517cfecadcf08e2e8d8bc.jpg)
