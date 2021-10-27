@@ -1,0 +1,235 @@
+
+body {
+  background-color:#f9fcff !important;
+  font-family: 'Didact Gothic';
+   letter-spacing: 1px;
+   font-size: 14px !important;
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 210px;
+    padding-right: 40px;
+
+  }
+}
+/*Header*/
+.wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "header"
+    "main"
+    "sidebar"
+    
+}
+@media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr 7fr;
+    grid-template-areas:
+      "header  header"
+      "sidebar main"
+  }
+  nav ul {
+    display: flex;
+    justify-content:  space-between;
+  }
+}
+.header {
+  grid-area: header;
+  position: fixed;
+  left: 200px;
+  height:43px;
+  width: 100vw;
+ background-color:#fff;
+ margin-right: 5px;
+ text-align: center;
+   box-shadow: 0 0 5px 2px  rgba(0, 0, 0, .1);
+}
+
+.main {
+  grid-area: main;
+height: 100vh;
+  width: 100vw;
+  margin-top: 10px;
+  margin-left:80px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 35px;
+  box-shadow: 0 0 5px 2px  rgba(0, 0, 0, .1);
+  width: 220px;
+  height: auto;
+  z-index: 600;
+  background-color:#fff;
+}
+.sidebar2 {
+  grid-area: sidebar;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 0 5px 2px  rgba(0, 0, 0, .1);
+  width: 45px;
+  height: auto;;
+  z-index: 600;
+   background-image: linear-gradient(to bottom, #0568f3, #009efb);
+
+}
+
+.sidebar2 nav{
+    flex-direction: column;
+}
+.sidebar2 nav i{
+  cursor:pointer;
+    text-align: center;
+    font-size: 18px;
+       color: #abd5ee;
+    margin: 15px 0 15px 0;
+}
+.sidebar2 nav i:hover{
+    color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+
+.nav-foot{
+     position: absolute;
+    bottom: -5px;
+}
+.line{
+     position: relative;
+    top: 21rem;
+
+    border-top:1px solid rgb(200, 200, 200) ;
+}
+
+
+
+.navbar-right{
+    position: absolute;
+    right:8rem;
+}
+.navbar-left{
+    position: absolute;
+    left:11rem;
+}
+.navbar-center{
+    margin-left: 50%;
+}
+
+
+.btn-header{
+border:none;
+border-radius: 5px;
+color: gray;
+background-color:#fff;
+}
+.btn-header a{
+     text-decoration: none;
+color: gray;
+}
+.btn-header a:hover{
+color: #fff;
+}
+.btn-header:hover{
+    color: #fff;
+    background-color:blueviolet;
+}
+.btn-header:focus{
+    color: #fff;
+    background-color:blueviolet;
+}
+
+
+.side-nav{
+  flex-direction: column;
+  padding-left:1rem;
+}
+
+.side-nav button{
+  border:none;
+  text-align: left;
+  background-color: #fff0;
+  text-decoration: none;
+  color:#4a4c65;
+  width:11rem;
+  height:2.5rem;
+  margin: 6px 0 6px 0;
+}
+.side-nav button,
+.side-nav button:before,
+.side-nav button {
+  transition: all 0.6s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  text-decoration: none;
+  font-style: normal;
+  margin-left:10px;
+}
+
+.side-nav button i{
+color:#999eac !important;
+  text-decoration: none;
+  font-style: normal;
+  margin-left:10px;
+}
+.side-nav button i a{
+color:#4a4c65 !important;
+font-weight: 500;
+margin-left:10px;
+}
+.side-nav button:hover{
+       color: #fff !important;
+   background-image: linear-gradient(to right, #0568f3 25%, #009efb 100%);
+    border-radius: 10px; 
+}
+
+.side-nav button i:hover{
+       color: #fff !important;
+}
+.side-nav button i a:hover{
+       color: #fff !important;
+}
+
+.side-nav-active button{
+        color: #fff;
+    background-image: linear-gradient(to right, #0568f3 25%, #009efb 100%);
+    border-radius: 10px; 
+    box-shadow: 0 0 5px 2px  rgba(52, 12, 161, 0.226) inset, 0 0 5px 1px rgba(17, 156, 236, 0.959);
+
+    
+}
+
+.side-nav-active button i,
+.side-nav-active button i a,
+.side-nav-active button i a{
+        color: #fff !important;
+
+}
+
+
+.navbar-brand button{
+  border-radius: 10px; 
+  padding:10px 0 10px 0;
+  height:3rem;
+  background-color:#ecf1ff;
+}
+
+.navbar-brand button i{
+  color:#00419c !important;
+padding-left: 3px;
+      font-family: 'Didact Gothic';
+   letter-spacing: 1px;
+font-weight: 700;
+}
+
+
+

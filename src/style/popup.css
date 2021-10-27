@@ -1,0 +1,76 @@
+.popup-box {
+  position: fixed;
+  background: #00000050!important;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 10%;
+  z-index: 1;
+}
+ 
+.box {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: calc(100vh - 85vh - 15px);
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #999;
+  overflow: auto;
+  
+}
+ 
+.close-icon {
+  content: 'x';
+  font-weight: bold;
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 85px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  border: 2px solid #ededed;
+  font-size: 20px;
+}
+.close-icon:hover,
+.close-icon:focus{
+    color: #fff;
+    background-color: red;
+    border: 2px solid #fff;
+         box-shadow: 0 0 5px 2px  rgba(52, 12, 161, 0.226) inset, 0 0 5px 1px red;
+
+}
+ 
+
+.form{
+    padding: 50px;
+}
+.form h2{
+  font-size: 40px;
+  font-weight: 900;
+   font-family: Oswald, sans-serif;
+    background-color: #009efb;
+  background-image: linear-gradient(to left, #009efb 70%, #8312A5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-group label{
+text-align: end;
+font-size: 17px;
+font-weight: 500;
+}
+.form-group label i{
+ font-size: 18px;
+ margin-left: 15px;
+ margin-right: 10px;
+  background-color: #009efb;
+  background-image: linear-gradient(to top, #009efb 40%, #8312A5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
