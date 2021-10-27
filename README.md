@@ -28,3 +28,6 @@ $ add user
 #
 $ edit user
 ![alt text](https://www.img.in.th/images/1737da4cfd58fb921d771427a94f998c.jpg)
+#
+$ delete user
+![alt text](https://www.img.in.th/images/2559981cf5c44e923a604296d5246993.jpg)
