@@ -17,4 +17,4 @@ $ Password:-อะไรก้ได้
 
 $ screen shots
 
-![alt text](https://www.img.in.th/images/fc1beaf40ce00336217e26ec83faea64.th.jpg)
+![alt text](https://www.img.in.th/images/fc1beaf40ce00336217e26ec83faea64.md.jpg)
