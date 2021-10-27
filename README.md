@@ -15,4 +15,6 @@ $ npm start
 $ Email: anet.weaver@reqres.in
 $ Password:-อะไรก้ได้
 
-![alt text](https://www.img.in.th/images/fc1beaf40ce00336217e26ec83faea64.jpg)
+$ screen shots
+
+![alt text](https://www.img.in.th/images/fc1beaf40ce00336217e26ec83faea64.th.jpg)
